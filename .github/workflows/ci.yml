@@ -8,7 +8,7 @@ on:
 
 jobs:
   test:
-    runs-on: runners-set-amd64-big
+    runs-on: aks-runners-set-amd64-big
     timeout-minutes: 5
 
     strategy:
